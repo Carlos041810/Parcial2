@@ -1,0 +1,1147 @@
+Buscar la fuente 
+	Barlow
+
+todos
+   margen 		0
+   espaciado 	0
+   box-sizing 	border-box
+   fuente  		Barlow
+   
+html 
+	scroll-behavior 	 smooth
+
+body
+    background-color 	#dde1e9
+
+/* *********** */
+/* ENCABEZADO - MENU */
+/* *********** */
+
+CLASE -->contenedor-header
+		ancho 				100%
+		posicion 			fixed
+		border-bottom 		1px solid #1f283e
+		color de fondo	 	rgba(0,0,0,.7)
+		z-index 			99
+		espaciado 			0 20px
+
+
+CLASE -->contenedor-header 
+encabezado
+    max-ancho 				1100px
+    margen 					auto
+    ancho 					100%
+    display 				flex
+    justify-content 		space-between
+    alineacio de items 		center
+    espaciado 				20px 0
+    color 					#fff
+
+
+CLASE -->txtRojo
+       color					#ff1133
+
+
+CLASE -->contenedor-header 
+header 
+nav 
+a
+    display				 inline-block
+    text-decoration		 none
+    color	 			 #fff
+    padding 			 5px
+    text-transform       uppercase
+
+ 
+
+CLASE -->contenedor-header 
+header 
+nav   
+a=hover
+     color				 #ff1133
+
+ 
+
+CLASE -->contenedor-header 
+header 
+CLASE -->redes 
+a
+    text-decoration		 none
+    color				 #fff
+    display				 inline-block
+    padding				 5px 8px
+
+ 
+
+CLASE -->contenedor-header 
+header 
+CLASE -->redes 
+a=hover
+    color				 #ff1133
+
+ 
+
+CLASE -->nav-responsive
+    display				 none
+    font-size			 25px
+ 
+ 
+ /* *********** */
+/* SECCIÓN INICIO */
+/* *********** */
+
+CLASE -->inicio
+    height				 	100vh
+    background			 	linear-gradient(rgba(0, 1, 3, 0.5), rgba(0,0,0,.7)),url(img/fondo.jpg)
+    background-size		 	cover
+    background-position	 	center center
+    color				 	#fff
+    position			 	relative
+
+ 
+
+CLASE -->inicio 
+CLASE -->contenido-seccion
+    max-width				1100px
+    margin					auto
+
+ 
+
+
+CLASE -->inicio 
+CLASE -->info
+    width					fit-content
+    margin					auto
+    position				absolute
+    top						50%
+    left					50%
+    transform				translate(-50%,-50%)
+    text-align			    center
+
+ 
+
+CLASE -->inicio 
+CLASE -->info 
+h2
+    font-size				4rem
+    letter-spacing			3px
+
+ 
+
+CLASE -->inicio 
+CLASE -->info 
+p
+    margin					20px
+    color					#797e8e
+    font-size				16px
+    letter-spacing			3px
+    text-transform			uppercase
+
+
+CLASE -->inicio 
+CLASE -->info 
+CLASE -->btn-mas
+    width					50px
+    margin					auto
+    height					50px
+    border					2px 
+							solid 
+							#ff1133
+    display					flex
+    justify-content		    center
+    align-items				center
+    border-radius			50%
+    color					#ff1133
+    margin-top				50px
+    text-decoration			none
+
+ 
+
+CLASE -->opciones
+    position				 absolute
+    display					 flex
+    justify-content	 	     space-between
+    bottom	 				 30px
+    left	 	 	 	 	 50%
+    transform	 	 	 	 translateX(-50%)
+
+ 
+
+CLASE -->inicio 
+CLASE -->opciones 
+CLASE -->opcion
+    border-top	 	 	 	 	 2px 
+								 solid 
+								 #797e8e
+    padding	 	 	 	 	 	 7px
+    color	 	 	 	 	 	 #797e8e
+    margin	 	 	 	 	 	 0 20px
+
+ 
+/* *********** */
+/* SECCION NOSOTROS */
+/* *********** */
+CLASE -->nosotros
+    max-width	 	 	 	 	 1100px
+    margin	 	 	 	 	 	 auto
+    height	 	 	 	 	 	 100vh
+    background-color	 	 	 #dde1e9
+    padding	 	 	 	 	 	 100px 20px
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+    display	 	 	 	 	 	 flex
+    align-items	 	 	 	 	 center
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col
+     width	 	 	 	 	 	 50%
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col 
+img
+    width	 	 	 	 	 	 80%
+    display	 	 	 	 	 	 block
+    margin	 	 	 	 	 	 auto
+    margin-bottom	 	 	 	 50px
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo
+    display	 	 	 	 	 	 flex
+    align-items	 	 	 	 	 center
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo
+CLASE -->numero
+    color	 	 	 	 	 	 #ff1133
+    font-weight	 	 	 	 	 bold
+    display	 	 	 	 	 	 block
+    font-size	 	 	 	 	 5rem
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo
+CLASE -->info
+    margin-left	 	 	 	 	30px
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo
+CLASE -->info
+CLASE -->frase
+    color	 	 	 	 	 	 #ff1133
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo
+CLASE -->info 
+h2
+    font-size	 	 	 	 	 	 3rem
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col 
+p
+   margin-bottom	 	 	 	 	 10px
+   line-height	 	 	 	 	 	 28px
+
+ 
+CLASE -->nosotros
+CLASE -->fila
+CLASE -->col
+CLASE -->p-especial
+    font-weight	 	 	 	 	 	 bold
+
+ 
+CLASE -->nosotros 
+hr 
+    margin-bottom	 	 	 	 	 	 30px
+
+ 
+CLASE -->nosotros
+CLASE -->fila-nosotros
+    display	 	 	 	 	 	 		flex
+    justify-content	 	 	 	 	 	space-between
+    align-items	 	 	 	 	 	 	center
+
+ 
+CLASE -->nosotros
+CLASE -->fila-nosotros
+CLASE -->frase
+    font-size	 	 	 	 	 	 18px
+    font-weight	 	 	 	 	 	 600
+
+ 
+CLASE -->nosotros
+CLASE -->fila-nosotros 
+h2
+    font-size	 	 	 	 	 	 2.5rem
+
+ 
+CLASE -->nosotros
+CLASE -->fila-nosotros 
+button
+    background-color	 	 	 	 	 	 #ff1133
+    border	 	 	 	 	 	 none
+    color	 	 	 	 	 	 #fff
+    padding	 	 	 	 	 	 15px 
+								 35px
+    font-size	 	 	 	 	 14px
+    letter-spacing	 	 	 	 3px
+    font-weight	 	 	 	 	 bold
+    border-radius	 	 	 	 5px
+    cursor	 	 	 	 	 	 pointer
+
+ 
+/* ********** */
+/* SERVICIOS */
+/* ********** */
+
+CLASE -->servicios
+    color	 	 	 	 	 -> #fff
+    position	 	 	 	 -> relative
+
+ 
+CLASE -->servicios
+CLASE -->contenido-seccion
+    background  			linear-gradient = rgba(0, 14, 41, 0.6) 
+							rgba =0, 7, 78, 0.7
+							url  = img/fondo-servicios.jpg
+    background-size	 	 	 	 	 -> cover
+    background-position	 	 	 	 	 -> center center
+    margin	 	 	 	 	 -> auto
+    padding	 	 	 	 	 -> 0 20px
+
+ 
+CLASE -->servicios
+CLASE -->contenido-seccion
+CLASE -->fila
+    max-width	 	 	 	 	 -> 1100px
+    margin	 	 	 	 	 -> auto
+    display	 	 	 	 	 -> flex
+    align-items	 	 	 	 	 -> center
+    padding	 	 	 	 	 -> 100px 0
+
+ 
+CLASE -->servicios
+CLASE -->contenido-seccion
+CLASE -->fila
+CLASE -->col 
+    width	 	 	 	 	 -> 50%
+
+ 
+CLASE -->servicios
+CLASE -->contenido-seccion
+CLASE -->fila
+CLASE -->col img
+    display	 	 	 	 	 -> block
+    width	 	 	 	 	 -> 50%
+    margin	 	 	 	 	 -> auto
+
+ 
+CLASE -->servicios
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo 
+    display	 	 	 	 	 -> flex
+    align-items	 	 	 	 	 -> center
+
+ 
+CLASE -->servicios
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo
+CLASE -->numero 
+    color	 	 	 	 	 -> #ff1133
+    font-weight	 	 	 	 	 -> bold
+    display	 	 	 	 	 -> block
+    font-size	 	 	 	 	 -> 5rem
+
+ 
+CLASE -->servicios
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo
+CLASE -->info 
+    margin-left	 	 	 	 	 -> 30px
+
+ 
+CLASE -->servicios
+CLASE -->fila
+CLASE -->col
+CLASE -->contenedor-titulo
+CLASE -->info 
+CLASE -->frase
+    color	 	 	 	 	 -> #ff1133
+
+ 
+CLASE -->servicios 
+CLASE -->fila 
+CLASE -->col 
+CLASE -->contenedor-titulo 
+CLASE -->info 
+h2 
+    font-size	 	 	 	 	 -> 3rem
+
+ 
+
+CLASE -->servicios 
+CLASE -->fila 
+CLASE -->col 
+p
+    margin-bottom	 	 	 	 	 -> 10px
+    line-height	 	 	 	 	 -> 28px
+
+ 
+
+CLASE -->servicios 
+CLASE -->fila 
+CLASE -->col 
+CLASE -->p-especial
+     font-weight	 	 	 	 	 -> bold
+
+ 
+
+CLASE -->servicios 
+CLASE -->info-servicios
+     max-width	 	 	 	 	 -> 800px
+     margin	 	 	 	 	 -> auto
+
+ 
+
+CLASE -->servicios 
+CLASE -->info-servicios 
+table
+    text-align	 	 	 	 	 -> center
+    background-color	 	 	 	 	 -> #fff
+    color	 	 	 	 	 -> #1f283e
+    border-collapse	 	 	 	 	 -> collapse
+    position	 	 	 	 	 -> relative
+    bottom	 	 	 	 	 -> 100px
+
+ 
+
+CLASE -->servicios 
+CLASE -->info-servicios 
+table 
+td
+     padding	 	 	 	 	 -> 30px
+     border	 	 	 	 	 -> 1px solid #dde1e9
+
+ 
+
+CLASE -->servicios 
+CLASE -->info-servicios 
+table 
+td 
+i
+    color	 	 	 	 	 -> #ff1133
+    font-size	 	 	 	 	 -> 2.5rem
+    margin-bottom	 	 	 	 	 -> 20px
+
+
+ 
+
+CLASE -->servicios 
+CLASE -->info-servicios 
+h3
+    margin-bottom	 	 	 	 	 -> 20px
+    text-transform	 	 	 	 	 -> uppercase
+
+ 
+
+CLASE -->servicios 
+CLASE -->info-servicios 
+p
+     line-height	 	 	 	 	 -> 30px
+
+ 
+/* *********** */
+/* COMODIDADES */
+/* *********** */
+
+CLASE -->comodidades
+    max-width	 	 	 	 	 -> 1100px
+    margin	 	 	 	 	 -> auto
+    background-color	 	 	 	 	 -> #dde1e9
+    padding	 	 	 	 	 -> 100px 20px
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila
+    display	 	 	 	 	 -> flex
+    align-items	 	 	 	 	 -> center
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col
+     width	 	 	 	 	 -> 50%
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col img
+    width	 	 	 	 	 -> 80%
+    display	 	 	 	 	 -> block
+    margin	 	 	 	 	 -> auto
+    margin-bottom	 	 	 	 	 -> 50px
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+CLASE -->contenedor-titulo
+    display	 	 	 	 	 -> flex
+    align-items	 	 	 	 	 ->center
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+CLASE -->contenedor-titulo 
+CLASE -->numero
+    color	 	 	 	 	 -> #ff1133
+    font-weight	 	 	 	 	 -> bold
+    display	 	 	 	 	 -> block
+    font-size	 	 	 	 	 -> 5rem
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+CLASE -->contenedor-titulo 
+CLASE -->info
+     margin-left	 	 	 	 	 -> 30px
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+CLASE -->contenedor-titulo 
+CLASE -->info 
+CLASE -->frase
+     color	 	 	 	 	 -> #ff1133
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+CLASE -->contenedor-titulo 
+CLASE -->info 
+h2
+     font-size	 	 	 	 	 -> 3rem
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+p
+   margin-bottom	 	 	 	 	 -> 10px
+   line-height	 	 	 	 	 -> 28px
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+CLASE -->p-especial
+     font-weight	 	 	 	 	 -> bold
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+li
+    margin-bottom	 	 	 	 	 -> 20px
+    color	 	 	 	 	 -> #1f283e
+
+ 
+
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col 
+li 
+span
+    font-weight	 	 	 	 	 -> bold
+    color	 	 	 	 	 -> #ff1133
+
+ 
+/* ********** */
+/* GALERIA */
+/* ********** */
+
+CLASE -->galeria
+    color	 	 	 	 	 -> #fff
+    background					linear-gradient( rgba(0, 14, 41, 0.6) 
+								rgba(0, 7, 78, 0.7)
+								url --> img/fondo-galeria.jpg
+    background-size	 	 	 	 	 -> cover
+    background-position	 	 	 	 	 -> center center
+    padding	 	 	 	 	 -> 100px 0
+
+ 
+
+CLASE -->galeria 
+CLASE -->contenido-seccion
+    max-width	 	 	 	 	 -> 1100px
+    margin	 	 	 	 	 -> auto
+    padding	 	 	 	 	 -> 0 20px
+
+ 
+
+CLASE -->galeria 
+CLASE -->contenedor-titulo
+    display	 	 	 	 	 -> flex
+    align-items	 	 	 	 	 -> center
+    margin-bottom	 	 	 	 	 -> 40px
+
+ 
+
+CLASE -->galeria  
+CLASE -->contenedor-titulo 
+CLASE -->numero
+    color	 	 	 	 	 -> #ff1133
+    font-weight	 	 	 	 	 -> bold
+    display	 	 	 	 	 -> block
+    font-size	 	 	 	 	 -> 5rem
+
+ 
+
+CLASE -->galeria 
+CLASE -->contenedor-titulo 
+CLASE -->info
+    margin-left	 	 	 	 	 -> 30px
+
+ 
+
+CLASE -->galeria 
+CLASE -->contenedor-titulo 
+CLASE -->info 
+CLASE -->frase
+    color	 	 	 	 	 -> #ff1133
+
+ 
+
+CLASE -->galeria 
+CLASE -->contenedor-titulo 
+CLASE -->info h2
+    font-size	 	 	 	 	 -> 3rem
+
+ 
+
+CLASE -->galeria 
+CLASE -->fila
+    display	 	 	 	 	 -> flex
+
+ 
+
+CLASE -->galeria 
+CLASE -->fila 
+CLASE -->col 
+img
+    width	 	 	 	 	 -> 100%
+    display	 	 	 	 	 -> block
+
+ 
+/* *********** */
+/* ENTRENADORES */
+/* *********** */
+
+CLASE -->equipo
+    max-width	 	 	 	 	 -> 1100px
+    margin	 	 	 	 	 -> auto
+    padding-top	 	 	 	 	 -> 95px
+    background-color	 	 	 	 	 -> #dde1e9
+
+ 
+
+CLASE -->equipo 
+CLASE -->contenedor-titulo
+    display	 	 	 	 	 -> flex
+    align-items	 	 	 	 	 -> center
+    width	 	 	 	 	 -> fit-content
+    margin	 	 	 	 	 -> auto
+
+ 
+
+CLASE -->equipo  
+CLASE -->contenedor-titulo 
+CLASE -->numero
+    color	 	 	 	 	 -> #ff1133
+    font-weight	 	 	 	 	 -> bold
+    display	 	 	 	 	 -> block
+    font-size	 	 	 	 	 -> 5rem
+
+ 
+
+CLASE -->equipo 
+CLASE -->contenedor-titulo 
+CLASE -->info
+    margin-left	 	 	 	 	 -> 30px
+
+ 
+
+CLASE -->equipo 
+CLASE -->contenedor-titulo 
+CLASE -->info 
+CLASE -->frase
+    color	 	 	 	 	 -> #ff1133
+
+ 
+
+CLASE -->equipo 
+CLASE -->contenedor-titulo 
+CLASE -->info 
+h2
+    font-size	 	 	 	 	 -> 3rem
+
+ 
+
+CLASE -->equipo 
+CLASE -->fila
+    margin	 	 	 	 	 -> 50px 0
+    display	 	 	 	 	 -> flex
+    justify-content	 	 	 	 	 -> space-around
+
+ 
+
+CLASE -->equipo 
+CLASE -->fila 
+CLASE -->col
+    width	 	 	 	 	 -> 25%
+
+ 
+
+CLASE -->equipo 
+CLASE -->fila 
+CLASE -->col 
+img
+   max-height	 	 	 	 	 -> 400px
+   display	 	 	 	 	 -> block
+   margin	 	 	 	 	 -> auto
+
+ 
+
+CLASE -->equipo 
+CLASE -->fila 
+CLASE -->info
+    border	 	 	 	 	 -> 5px solid #1f283e
+    text-align	 	 	 	 	 -> center
+    border-radius	 	 	 	 	 -> 5px
+    padding	 	 	 	 	 -> 20px
+    background	 	 	 	 	 -> linear-gradient(#ff1133, #9a0e23)
+    color	 	 	 	 	 -> #fff
+
+ 
+
+CLASE -->equipo 
+CLASE -->fila 
+CLASE -->info 
+p
+    margin	 	 	 	 	 -> 20px 0
+
+ 
+
+CLASE -->equipo 
+CLASE -->fila 
+CLASE -->info 
+a
+    color	 	 	 	 	 -> #fff
+    text-decoration	 	 	 	 	 -> none
+    display	 	 	 	 	 -> inline-block
+    margin	 	 	 	 	 -> 0 
+								20px
+    font-size	 	 	 	 	 -> 20px
+
+ 
+/* *********** */
+/* CONTACTO */
+/* *********** */
+
+CLASE -->contacto
+    color	 	 	 	 	 -> #fff
+    background	 	 	 	 	 ->linear-gradient( rgba(0, 14, 41, 0.6), rgba(0, 7, 78, 0.7)),url(img/fondo.jpg)
+    background-size	 	 	 	 	 -> cover
+    background-position	 	 	 	 	 -> center center
+    padding	 	 	 	 	 -> 100px 
+								20px
+
+
+ 
+
+CLASE -->contacto 
+CLASE -->contenido-seccion
+    max-width	 	 	 	 	 -> 800px
+    margin	 	 	 	 	 -> auto
+
+
+CLASE -->contacto 
+CLASE -->contenedor-titulo
+    display	 	 	 	 	 -> flex
+    align-items	 	 	 	 	 -> center
+    width	 	 	 	 	 -> fit-content
+    margin	 	 	 	 	 -> auto
+
+ 
+
+CLASE -->contacto  
+CLASE -->contenedor-titulo 
+CLASE -->numero
+    color	 	 	 	 	 -> #ff1133
+    font-weight	 	 	 	 	 -> bold
+    display	 	 	 	 	 -> block
+    font-size	 	 	 	 	 -> 5rem
+
+ 
+
+CLASE -->contacto 
+CLASE -->contenedor-titulo 
+CLASE -->info
+    margin-left	 	 	 	 	 -> 30px
+
+ 
+
+CLASE -->contacto 
+CLASE -->contenedor-titulo 
+CLASE -->info 
+CLASE -->frase
+    color	 	 	 	 	 -> #ff1133
+
+ 
+
+CLASE -->contacto 
+CLASE -->contenedor-titulo 
+CLASE -->info 
+h2
+    font-size	 	 	 	 	 -> 3rem
+
+ 
+
+CLASE -->contacto 
+CLASE -->fila
+    display	 	 	 	 	 -> flex
+    margin-top	 	 	 	 	 -> 50px
+    justify-content	 	 	 	 	 -> space-between
+
+ 
+
+CLASE -->contacto 
+CLASE -->fila 
+CLASE -->col
+    width	 	 	 	 	 -> 48%
+
+ 
+
+CLASE -->contacto 
+CLASE -->fila 
+input
+    width	 	 	 	 	 -> 100%
+    padding	 	 	 	 	 -> 15px
+    border	 	 	 	 	 -> none
+    border-radius	 	 	 	 	 -> 5px
+    font-size	 	 	 	 	 -> 20px
+    outline	 	 	 	 	 -> none
+
+ 
+
+CLASE -->contacto 
+textarea
+    display	 	 	 	 	 -> block
+    margin-top	 	 	 	 	 -> 20px
+    padding	 	 	 	 	 -> 15px
+    font-size	 	 	 	 	 -> 20px
+    outline	 	 	 	 	 -> none
+    width	 	 	 	 	 -> 100%
+    height	 	 	 	 	 -> 200px
+
+ 
+
+
+CLASE -->contacto 
+button
+    display	 	 	 	 	 -> block
+    width	 	 	 	 	 -> fit-content
+    margin	 	 	 	 	 -> auto
+    margin-top	 	 	 	 	 -> 30px
+    border	 	 	 	 	 -> none
+    background-color	 	 	 	 	 -> #ff1133
+    color	 	 	 	 	 -> #fff
+    font-size	 	 	 	 	 -> 18px
+    padding	 	 	 	 	 -> 10px 25px
+    border-radius	 	 	 	 	 -> 5px
+    cursor	 	 	 	 	 -> pointer
+
+ 
+
+CLASE -->contacto 
+CLASE -->fila-datos
+    display	 	 	 	 	 -> flex
+    justify-content	 	 	 	 	 -> space-around
+    margin-top	 	 	 	 	 -> 100px
+    font-size	 	 	 	 	 -> 18px
+    text-align	 	 	 	 	 -> center
+
+ 
+
+CLASE -->contacto 
+i
+    color	 	 	 	 	 -> #ff1133
+    display	 	 	 	 	 -> inline-block
+    margin-right	 	 	 	 	 -> 10px
+
+ 
+/* *********** */
+/* FOOTER */
+/* *********** */
+footer
+    background-color	 	 	 	 	 -> #151623
+    padding	 	 	 	 	 -> 30px 
+								0
+
+ 
+footer 
+CLASE -->info
+    display	 	 	 	 	 -> flex
+    max-width	 	 	 	 	 -> 1100px
+    margin	 	 	 	 	 -> auto
+    justify-content	 	 	 	 	 -> space-between
+    padding	 	 	 	 	 -> 0 
+								20px
+
+ 
+footer 
+CLASE -->info 
+p
+    color	 	 	 	 	 -> #797e8e
+
+ 
+footer 
+CLASE -->info 
+a
+    text-decoration	 	 	 	 	 -> none
+    color	 	 	 	 	 -> #797e8e
+    display	 	 	 	 	 -> inline-block
+    margin	 	 	 	 	 -> 0 
+								15px
+
+ 
+/* *********** */
+/* RESPONSIVE */
+/* *********** */
+@media only screen and (max-width	 	 	 	 	 -> 900px) 
+ 
+    header nav
+        position	 	 	 	 	 -> initial
+        display	 	 	 	 	 -> none
+        transform	 	 	 	 	 -> translate(0)
+    
+ 
+    header 
+CLASE -->redes
+        display	 	 	 	 	 -> none
+    
+ 
+    
+CLASE -->nav-responsive
+        display	 	 	 	 	 -> block
+    
+ 
+nav
+CLASE -->responsive
+        display	 	 	 	 	 -> flex
+        flex-direction	 	 	 	 	 -> column
+        justify-content	 	 	 	 	 -> center
+        position	 	 	 	 	 ->absolute
+        left	 	 	 	 	 -> 0
+        top	 	 	 	 	 -> 0
+        width	 	 	 	 	 -> 100%
+        height	 	 	 	 	 -> 100vh
+        background-color	 	 	 	 	 ->#151623
+        z-index	 	 	 	 	 -> 99
+    
+ 
+nav
+CLASE -->responsive 
+a
+        display	 	 	 	 	 -> block
+        width	 	 	 	 	 -> fit-content
+        margin	 	 	 	 	 -> 10px auto
+        font-size	 	 	 	 	 -> 30px
+    
+ 
+    
+CLASE -->inicio 
+CLASE -->opciones
+        display	 	 	 	 	 -> none
+    
+ 
+    
+CLASE -->nosotros 
+CLASE -->fila
+        display	 	 	 	 	 -> block
+    
+ 
+    
+CLASE -->nosotros 
+CLASE -->fila 
+CLASE -->col
+        width	 	 	 	 	 -> 100%
+        margin	 	 	 	 	 -> auto
+    
+ 
+    
+CLASE -->nosotros 
+CLASE -->fila 
+CLASE -->col img
+        max-width	 	 	 	 	 -> 200px
+        display	 	 	 	 	 -> block
+        margin	 	 	 	 	 -> auto
+    
+ 
+    
+CLASE -->servicios 
+CLASE -->contenido-seccion 
+CLASE -->fila
+ 
+        display	 	 	 	 	 -> block
+    
+ 
+    
+CLASE -->servicios 
+CLASE -->contenido-seccion 
+CLASE -->fila 
+CLASE -->col
+ 
+       width	 	 	 	 	 -> 100%
+    
+ 
+    
+CLASE -->comodidades 
+CLASE -->fila
+ 
+        display	 	 	 	 	 -> block
+    
+ 
+    
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col
+ 
+        width	 	 	 	 	 -> 100%
+    
+ 
+    
+CLASE -->comodidades 
+CLASE -->fila 
+CLASE -->col img
+ 
+        max-width	 	 	 	 	 -> 200px
+    
+ 
+
+    
+CLASE -->equipo 
+CLASE -->fila
+ 
+        display	 	 	 	 	 -> block
+    
+ 
+    
+CLASE -->equipo 
+CLASE -->fila 
+CLASE -->col
+ 
+        width	 	 	 	 	 -> 100%
+        margin-bottom	 	 	 	 	 -> 20px
+    
+ 
+    
+CLASE -->equipo 
+CLASE -->fila 
+CLASE -->col img
+ 
+        max-height	 	 	 	 	 -> 200px
+    
+ 
+    
+CLASE -->equipo 
+CLASE -->fila 
+CLASE -->info
+ 
+        max-width	 	 	 	 	 -> 250px
+        margin	 	 	 	 	 -> auto
+    
+ 
+    
+CLASE -->contacto 
+CLASE -->fila
+ 
+        display	 	 	 	 	 -> block
+    
+ 
+    
+CLASE -->contacto 
+CLASE -->fila 
+CLASE -->col
+ 
+        width	 	 	 	 	 -> 100%
+        margin-bottom	 	 	 	 	 -> 20px
+    
+ 
+    
+CLASE -->contacto 
+CLASE -->fila-datos
+ 
+        display	 	 	 	 	 -> block
+    
+ 
+    
+CLASE -->contacto 
+CLASE -->fila-datos 
+CLASE -->col
+ 
+        margin-bottom	 	 	 	 	 -> 20px
+    
+ 
+    footer 
+CLASE -->info
+ 
+        display	 	 	 	 	 -> block
+        text-align	 	 	 	 	 -> center
+    
+ 
+    footer 
+CLASE -->info p
+ 
+        margin-bottom	 	 	 	 	 -> 10px
+    
+ 

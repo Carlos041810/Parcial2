@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>THE GYM</title>
+</head>
+<body>
+    <script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.querySelector('body').insertAdjacentHTML('afterbegin', data);
+        });
+</script>
+
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>THE <span class="txtRojo">GYM</span></h1>
+            <nav id="nav">
+                <a href="index.html" onclick="seleccionar()">inicio</a>
+                <a href="nosotros.html" onclick="seleccionar()">Nosotros</a>
+                <a href="servicios.html" onclick="seleccionar()">Servicios</a>
+                <a href="comodidades.html" onclick="seleccionar()">Comodidades</a>
+                <a href="galeria.html" onclick="seleccionar()">Galería</a>
+                <a href="equipo.html" onclick="seleccionar()">Equipo</a>
+                <a href="contacto.html" onclick="seleccionar()">Contacto</a>
+                <a href="estudiante.html" onclick="seleccionar()">Estudiante</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    
+</body>
+</html>

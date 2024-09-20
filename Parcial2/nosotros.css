@@ -1,0 +1,96 @@
+/* *********** */
+/* SECCIÓN NOSOTROS */
+/* *********** */
+.nosotros {
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+    background-color: rgba(221, 225, 233, 0.7); /* Fondo con opacidad */
+    padding: 100px 20px;
+}
+
+.nosotros .fila {
+    display: flex;
+    align-items: center;
+}
+
+.nosotros .fila .col {
+    width: 50%;
+}
+
+.nosotros .fila .col img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.nosotros .fila .col .contenedor-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.nosotros .fila .col .contenedor-titulo .numero {
+    color: #ff1133; /* Color rojo */
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+
+.nosotros .fila .col .contenedor-titulo .info {
+    margin-left: 30px;
+}
+
+.nosotros .fila .col .contenedor-titulo .info .frase {
+    color: #ff1133; /* Color rojo */
+}
+
+.nosotros .fila .col .contenedor-titulo .info h2 {
+    font-size: 3rem;
+    color: #fff; /* Texto blanco */
+}
+
+.nosotros .fila .col p {
+    margin-bottom: 10px;
+    line-height: 28px;
+    color: #797e8e; /* Color gris */
+}
+
+.nosotros .fila .col .p-especial {
+    font-weight: bold;
+    color: #ff1133; /* Color rojo */
+}
+
+.nosotros hr {
+    margin-bottom: 30px;
+    border: 1px solid #1f283e; /* Borde del hr */
+}
+
+.nosotros .fila-nosotros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nosotros .fila-nosotros .frase {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff1133; /* Color rojo */
+}
+
+.nosotros .fila-nosotros h2 {
+    font-size: 2.5rem;
+    color: #fff; /* Texto blanco */
+}
+
+.nosotros .fila-nosotros button {
+    background-color: #ff1133; /* Color rojo */
+    border: none;
+    color: #fff; /* Texto blanco */
+    padding: 15px 35px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
